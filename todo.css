@@ -1,0 +1,12 @@
+td { position: relative; }
+
+tr.strikeout td:before {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  border-bottom: 1px solid #fff;
+  width: 100%;
+}
+
+
